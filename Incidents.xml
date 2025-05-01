@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Incidents>
+  <Incident>
+    <Header>
+      <Practitioner1>Dr. Smith</Practitioner1>
+      <DateOfCall>2025-05-01</DateOfCall>
+      <ClearTime>19:00:00</ClearTime>
+      <PatientID>PID001</PatientID>
+      <AtPatient>18:30:00</AtPatient>
+      <AtDestination>18:55:00</AtDestination>
+      <TimeOfCall>18:25:00</TimeOfCall>
+    </Header>
+    <PatientInformation>
+      <FirstName>John</FirstName>
+      <MiddleName>Michael</MiddleName>
+      <Surname>Doe</Surname>
+      <DateOfBirth>1980-03-15</DateOfBirth>
+      <Gender>Male</Gender>
+      <Age>45</Age>
+      <Address>123 Main St, Anytown</Address>
+      <PatientTelephone>555-123-4567</PatientTelephone>
+      <DoctorName>Dr. Jones</DoctorName>
+      <NOK>Jane Doe</NOK>
+      <NOKPhone>555-987-6543</NOKPhone>
+      <MedicalRecordNumber>MRN001</MedicalRecordNumber>
+      <Nationality>American</Nationality>
+      <PrimaryLanguage>English</PrimaryLanguage>
+      <InterpreterName></InterpreterName>
+      <InsuranceNo>INS001</InsuranceNo>
+      <InsuranceCompany>Acme Insurance</InsuranceCompany>
+      <UAEResident>No</UAEResident>
+      <EmiratesID></EmiratesID>
+      <VehicleNumber></VehicleNumber>
+      <Insurance>Yes</Insurance>
+    </PatientInformation>
+    <ChiefComplaint>Headache and nausea</ChiefComplaint>
+  </Incident>
+  <Incident>
+    <Header>
+      <Practitioner1>Nurse Brown</Practitioner1>
+      <DateOfCall>2025-05-01</DateOfCall>
+      <ClearTime>19:15:00</ClearTime>
+      <PatientID>PID002</PatientID>
+      <AtPatient>18:45:00</AtPatient>
+      <AtDestination>19:10:00</AtDestination>
+      <TimeOfCall>18:40:00</TimeOfCall>
+    </Header>
+    <PatientInformation>
+      <FirstName>Alice</FirstName>
+      <MiddleName></MiddleName>
+      <Surname>Smith</Surname>
+      <DateOfBirth>1992-11-20</DateOfBirth>
+      <Gender>Female</Gender>
+      <Age>32</Age>
+      <Address>456 Oak Ave, Anytown</Address>
+      <PatientTelephone>555-111-2222</PatientTelephone>
+      <DoctorName>Dr. Lee</DoctorName>
+      <NOK>Bob Smith</NOK>
+      <NOKPhone>555-333-4444</NOKPhone>
+      <MedicalRecordNumber>MRN002</MedicalRecordNumber>
+      <Nationality>Canadian</Nationality>
+      <PrimaryLanguage>English</PrimaryLanguage>
+      <InterpreterName></InterpreterName>
+      <InsuranceNo>INS002</InsuranceNo>
+      <InsuranceCompany>Beta Health</InsuranceCompany>
+      <UAEResident>No</UAEResident>
+      <EmiratesID></EmiratesID>
+      <VehicleNumber></VehicleNumber>
+      <Insurance>Yes</Insurance>
+    </PatientInformation>
+    <ChiefComplaint>Abdominal pain</ChiefComplaint>
+  </Incident>
+  <Incident>
+    <Header>
+      <Practitioner1>Paramedic Green</Practitioner1>
+      <DateOfCall>2025-05-01</DateOfCall>
+      <ClearTime>19:30:00</ClearTime>
+      <PatientID>PID003</PatientID>
+      <AtPatient>19:00:00</AtPatient>
+      <AtDestination>19:25:00</AtDestination>
+      <TimeOfCall>18:55:00</TimeOfCall>
+    </Header>
+    <PatientInformation>
+      <FirstName>Carlos</FirstName>
+      <MiddleName>Alberto</MiddleName>
+      <Surname>Garcia</Surname>
+      <DateOfBirth>1975-06-05</DateOfBirth>
+      <Gender>Male</Gender>
+      <Age>50</Age>
+      <Address>789 Pine Ln, Anytown</Address>
+      <PatientTelephone>555-555-6666</PatientTelephone>
+      <DoctorName>Dr. Patel</DoctorName>
+      <NOK>Maria Garcia</NOK>
+      <NOKPhone>555-777-8888</NOKPhone>
+      <MedicalRecordNumber>MRN003</MedicalRecordNumber>
+      <Nationality>Mexican</Nationality>
+      <PrimaryLanguage>Spanish</PrimaryLanguage>
+      <InterpreterName></InterpreterName>
+      <InsuranceNo>INS003</InsuranceNo>
+      <InsuranceCompany>Gamma Care</InsuranceCompany>
+      <UAEResident>No</UAEResident>
+      <EmiratesID></EmiratesID>
+      <VehicleNumber></VehicleNumber>
+      <Insurance>Yes</Insurance>
+    </PatientInformation>
+    <ChiefComplaint>Chest pain and shortness of breath</ChiefComplaint>
+  </Incident>
+  <Incident>
+    <Header>
+      <Practitioner1>Dr. White</Practitioner1>
+      <DateOfCall>2025-05-01</DateOfCall>
+      <ClearTime>19:45:00</ClearTime>
+      <PatientID>PID004</PatientID>
+      <AtPatient>19:15:00</AtPatient>
+      <AtDestination>19:40:00</AtDestination>
+      <TimeOfCall>19:10:00</TimeOfCall>
+    </Header>
+    <PatientInformation>
+      <FirstName>Eva</FirstName>
+      <MiddleName>Marie</MiddleName>
+      <Surname>Dubois</Surname>
+      <DateOfBirth>1988-09-12</DateOfBirth>
+      <Gender>Female</Gender>
+      <Age>36</Age>
+      <Address>101 Elm St, Anytown</Address>
+      <PatientTelephone>555-999-0000</PatientTelephone>
+      <DoctorName>Dr. Singh</DoctorName>
+      <NOK>Pierre Dubois</NOK>
+      <NOKPhone>555-121-3434</NOKPhone>
+      <MedicalRecordNumber>MRN004</MedicalRecordNumber>
+      <Nationality>French</Nationality>
+      <PrimaryLanguage>French</PrimaryLanguage>
+      <InterpreterName></InterpreterName>
+      <InsuranceNo>INS004</InsuranceNo>
+      <InsuranceCompany>Delta Plus</InsuranceCompany>
+      <UAEResident>No</UAEResident>
+      <EmiratesID></EmiratesID>
+      <VehicleNumber></VehicleNumber>
+      <Insurance>Yes</Insurance>
+    </PatientInformation>
+    <ChiefComplaint>Dizziness and weakness</ChiefComplaint>
+  </Incident>
+  <Incident>
+    <Header>
+      <Practitioner1>Nurse Black</Practitioner1>
+      <DateOfCall>2025-05-01</DateOfCall>
+      <ClearTime>20:00:00</ClearTime>
+      <PatientID>PID005</PatientID>
+      <AtPatient>19:30:00</AtPatient>
+      <AtDestination>19:55:00</AtDestination>
+      <TimeOfCall>19:25:00</TimeOfCall>
+    </Header>
+    <PatientInformation>
+      <FirstName>Kenji</FirstName>
+      <MiddleName></MiddleName>
+      <Surname>Tanaka</Surname>
+      <DateOfBirth>1995-02-28</DateOfBirth>
+      <Gender>Male</Gender>
+      <Age>30</Age>
+      <Address>222 Willow Dr, Anytown</Address>
+      <PatientTelephone>555-444-5555</PatientTelephone>
+      <DoctorName>Dr. Wong</DoctorName>
+      <NOK>Akiko Tanaka</NOK>
+      <NOKPhone>555-666-7777</NOKPhone>
+      <MedicalRecordNumber>MRN005</MedicalRecordNumber>
+      <Nationality>Japanese</Nationality>
+      <PrimaryLanguage>Japanese</PrimaryLanguage>
+      <InterpreterName></InterpreterName>
+      <InsuranceNo>INS005</InsuranceNo>
+      <InsuranceCompany>Epsilon Shield</InsuranceCompany>
+      <UAEResident>No</UAEResident>
+      <EmiratesID></EmiratesID>
+      <VehicleNumber></VehicleNumber>
+      <Insurance>Yes</Insurance>
+    </PatientInformation>
+    <ChiefComplaint>Fever and cough</ChiefComplaint>
+  </Incident>
+  <Incident>
+    <Header>
+      <Practitioner1>Paramedic Blue</Practitioner1>
+      <DateOfCall>2025-05-01</DateOfCall>
+      <ClearTime>20:15:00</ClearTime>
+      <PatientID>PID006</PatientID>
+      <AtPatient>19:45:00</AtPatient>
+      <AtDestination>20:10:00</AtDestination>
+      <TimeOfCall>19:40:00</TimeOfCall>
+    </Header>
+    <PatientInformation>
+      <FirstName>Sofia</FirstName>
+      <MiddleName>Isabella</MiddleName>
+      <Surname>Rossi</Surname>
+      <DateOfBirth>1982-07-10</DateOfBirth>
+      <Gender>Female</Gender>
+      <Age>42</Age>
+      <Address>333 Maple Ave, Anytown</Address>
+      <PatientTelephone>555-888-9999</PatientTelephone>
+      <DoctorName>Dr. Romano</DoctorName>
+      <NOK>Marco Rossi</NOK>
+      <NOKPhone>555-010-2323</NOKPhone>
+      <MedicalRecordNumber>MRN006</MedicalRecordNumber>
+      <Nationality>Italian</Nationality>
+      <PrimaryLanguage>Italian</PrimaryLanguage>
+      <InterpreterName></InterpreterName>
+      <InsuranceNo>INS006</InsuranceNo>
+      <InsuranceCompany>Zeta Secure</InsuranceCompany>
+      <UAEResident>No</UAEResident>
+      <EmiratesID></EmiratesID>
+      <VehicleNumber></VehicleNumber>
+      <Insurance>Yes</Insurance>
+    </PatientInformation>
+    <ChiefComplaint>Back pain</ChiefComplaint>
+  </Incident>
+  <Incident>
+    <Header>
+      <Practitioner1>Dr. Grey</Practitioner1>
+      <DateOfCall>2025-05-01</DateOfCall>
+      <ClearTime>20:30:00</ClearTime>
+      <PatientID>PID007</PatientID>
+      <AtPatient>20:00:00</AtPatient>
+      <AtDestination>20:25:00</AtDestination>
+      <TimeOfCall>19:55:00</TimeOfCall>
+    </Header>
+    <PatientInformation>
+      <FirstName>Omar</FirstName>
+      <MiddleName></MiddleName>
+      <Surname>Al-Farsi</Surname>
+      <DateOfBirth>1990-01-18</DateOfBirth>
+      <Gender>Male</Gender>
+      <Age>35</Age>
+      <Address>444 Palm Jumeirah, Dubai</Address>
+      <PatientTelephone>555-135-7911</PatientTelephone>
+      <DoctorName>Dr. Hassan</DoctorName>
+      <NOK>Fatima Al-Farsi</NOK>
+      <NOKPhone>555-246-8022</NOKPhone>
+      <MedicalRecordNumber>MRN007</MedicalRecordNumber>
+      <Nationality>Emirati</Nationality>
+      <PrimaryLanguage>Arabic</PrimaryLanguage>
+      <InterpreterName></InterpreterName>
+      <InsuranceNo>INS007</InsuranceNo>
+      <InsuranceCompany>Emirates Health</InsuranceCompany>
+      <UAEResident>Yes</UAEResident>
+      <EmiratesID>784198512345678</EmiratesID>
+      <VehicleNumber>ABC12345</VehicleNumber>
+      <Insurance>Yes</Insurance>
+    </PatientInformation>
+    <ChiefComplaint>Sudden onset of leg swelling</ChiefComplaint>
+  </Incident>
+  <Incident>
+    <Header>
+      <Practitioner1>Nurse Indigo</Practitioner1>
+      <DateOfCall>2025-05-01</DateOfCall>
+      <ClearTime>20:45:00</ClearTime>
+      <PatientID>PID008</PatientID>
+      <AtPatient>20:15:00</AtPatient>
+      <AtDestination>20:40:00</AtDestination>
+      <TimeOfCall>20:10:00</TimeOfCall>
+    </Header>
+    <PatientInformation>
+      <FirstName>Aisha</FirstName>
+      <MiddleName>Bint</MiddleName>
+      <Surname>Mohammed</Surname>
+      <DateOfBirth>1998-04-22</DateOfBirth>
+      <Gender>Female</Gender>
+      <Age>27</Age>
+      <Address>555 Marina Walk, Dubai</Address>
+      <PatientTelephone>555-987-6511</PatientTelephone>
+      <DoctorName>Dr. Ali</DoctorName>
+      <NOK>Ahmed Mohammed</NOK>
+      <NOKPhone>555-234-5678</NOKPhone>
+      <MedicalRecordNumber>MRN008</MedicalRecordNumber>
+      <Nationality>Pakistani</Nationality>
+      <PrimaryLanguage>Urdu</PrimaryLanguage>
+      <InterpreterName></InterpreterName>
+      <InsuranceNo>INS008</InsuranceNo>
+      <InsuranceCompany>Dubai National Insurance</InsuranceCompany>
+      <UAEResident>Yes</UAEResident>
+      <EmiratesID>784199587654321</EmiratesID>
+      <VehicleNumber>DEF67890</VehicleNumber>
+      <Insurance>Yes</Insurance>
+    </PatientInformation>
+    <ChiefComplaint>Allergic reaction with rash</ChiefComplaint>
+  </Incident>
+  <Incident>
+    <Header>
+      <Practitioner1>Paramedic Violet</Practitioner1>
+      <DateOfCall>2025-05-01</DateOfCall>
+      <ClearTime>21:00:00</ClearTime>
+      <PatientID>PID009</PatientID>
+      <AtPatient>20:30:00</AtPatient>
+      <AtDestination>20:55:00</AtDestination>
+      <TimeOfCall>20:25:00</TimeOfCall>
+    </Header>
+    <PatientInformation>
+      <FirstName>Sergey</FirstName>
+      <MiddleName>Vladimirovich</MiddleName>
+      <Surname>Ivanov</Surname>
+      <DateOfBirth>1970-12-01</DateOfBirth>
+      <Gender>Male</Gender>
+      <Age>54</Age>
+      <Address>666 Sheikh Zayed Rd, Dubai</Address>
+      <PatientTelephone>555-321-6549</PatientTelephone>
+      <DoctorName>Dr. Petrova</DoctorName>
+      <NOK>Natalia Ivanova</NOK>
+      <NOKPhone>555-987-3210</NOKPhone>
+      <MedicalRecordNumber>MRN009</MedicalRecordNumber>
+      <Nationality>Russian</Nationality>
+      <PrimaryLanguage>Russian</PrimaryLanguage>
+      <InterpreterName></InterpreterName>
+      <InsuranceNo>INS009</InsuranceNo>
+      <InsuranceCompany>Global Health Ltd</InsuranceCompany>
+      <UAEResident>Yes</UAEResident>
+      <EmiratesID>784197001234567</EmiratesID>
+      <VehicleNumber>GHI12345</VehicleNumber>
+      <Insurance>Yes</Insurance>
+    </PatientInformation>
+    <ChiefComplaint>Allergic reaction with rash</ChiefComplaint>
+  </Incident>
+</Incidents>

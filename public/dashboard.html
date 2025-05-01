@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Authority Portal - Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>Health Authority Portal</h1>
+            <div class="user-info">
+                <span id="username"></span>
+                <a href="/logout" class="logout-btn">Logout</a>
+            </div>
+        </header>
+        
+        <main>
+            <h2>Incidents Report</h2>
+            <div class="table-container">
+                <table id="incidents-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Patient ID</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                            <th>Chief Complaint</th>
+                            <th>Practitioner</th>
+                            <th>Time of Call</th>
+                            <th>Clear Time</th>
+                        </tr>
+                    </thead>
+                    <tbody id="incidents-body">
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                console.log('Fetching incidents data...');
+                const response = await fetch('/api/incidents');
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    throw new Error(`Server error: ${errorData.error} - ${errorData.details || ''}`);
+                }
+                const incidents = await response.json();
+                console.log('Received incidents data:', incidents);
+                
+                const tbody = document.getElementById('incidents-body');
+                if (!incidents || incidents.length === 0) {
+                    console.error('No incidents data received');
+                    tbody.innerHTML = '<tr><td colspan="9">No incidents data available</td></tr>';
+                    return;
+                }
+
+                incidents.forEach(incident => {
+                    try {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${incident.Header[0].DateOfCall[0]}</td>
+                            <td>${incident.Header[0].PatientID[0]}</td>
+                            <td>${incident.PatientInformation[0].FirstName[0]} ${incident.PatientInformation[0].Surname[0]}</td>
+                            <td>${incident.PatientInformation[0].Age[0]}</td>
+                            <td>${incident.PatientInformation[0].Gender[0]}</td>
+                            <td>${incident.ChiefComplaint[0]}</td>
+                            <td>${incident.Header[0].Practitioner1[0]}</td>
+                            <td>${incident.Header[0].TimeOfCall[0]}</td>
+                            <td>${incident.Header[0].ClearTime[0]}</td>
+                        `;
+                        tbody.appendChild(row);
+                    } catch (error) {
+                        console.error('Error processing incident:', error, incident);
+                    }
+                });
+            } catch (error) {
+                console.error('Error fetching incidents:', error);
+                const tbody = document.getElementById('incidents-body');
+                tbody.innerHTML = `<tr><td colspan="9" class="error-message">Error loading data: ${error.message}</td></tr>`;
+            }
+        });
+    </script>
+</body>
+</html> 

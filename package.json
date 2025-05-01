@@ -1,0 +1,15 @@
+{
+  "name": "health-authority-portal",
+  "version": "1.0.0",
+  "description": "Health Authority Portal with login and incident data display",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "body-parser": "^1.20.2",
+    "xml2js": "^0.6.2"
+  }
+} 
