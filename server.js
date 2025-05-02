@@ -59,20 +59,20 @@ app.get('/api/incidents', (req, res) => {
         return;
     }
 
-    const filePath = path.join(__dirname, 'incidents.xml');
-    console.log('Attempting to read file from:', filePath);
+    const xmlFilePath = path.join(__dirname, 'Incidents.xml');
+    console.log('Attempting to read file from:', xmlFilePath);
 
     // Check if file exists
-    if (!fs.existsSync(filePath)) {
-        console.error('File does not exist at path:', filePath);
+    if (!fs.existsSync(xmlFilePath)) {
+        console.error('File does not exist at path:', xmlFilePath);
         res.status(500).json({ 
             error: 'Incidents file not found',
-            details: `File not found at: ${filePath}`
+            details: `File not found at: ${xmlFilePath}`
         });
         return;
     }
 
-    fs.readFile(filePath, 'utf8', (err, data) => {
+    fs.readFile(xmlFilePath, 'utf8', (err, data) => {
         if (err) {
             console.error('Error reading file:', err);
             res.status(500).json({ 
